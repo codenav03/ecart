@@ -1,0 +1,46 @@
+.card
+{
+   height: 35rem;
+   border-radius: 30px;
+   padding: 15px;
+   margin-bottom: 200px;
+   background-color: #8b5c00;
+
+}
+body{
+  border: 5px black solid;
+}
+.card>img{
+  height: 200px;
+}
+h1{
+  border: 5px black solid;
+  display: flex;
+  justify-content: center;
+  color: burlywood;
+  background-color: black;
+}
+.btn{
+  background-color: rgb(162, 0, 0);
+}
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.container{
+  width:100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  color: #8b5c00;
+  animation: slideIn 1s ease-out; /* Apply the animation */
+}
