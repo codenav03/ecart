@@ -1,7 +1,19 @@
 .navbar{
-  background-color: white;
+  background-color: #8451c9;
   width: 100%;
   margin-right: 0px;
+  display: flex;
+
+}
+.nav-item {
+  color: rgb(209, 32, 138);
+  text-decoration: none;
+  margin-left: 100px;
+  margin-right: 100px; /* Add margin between nav items */
+}
+
+.nav-item:last-child {
+  margin-right: 0; /* Remove margin for the last nav item */
 }
 .container{
   width: 100%;

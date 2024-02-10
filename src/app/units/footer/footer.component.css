@@ -1,7 +1,8 @@
 footer {
   background-color: #333;
   color: #fff;
-  padding: 20px 0;
+  padding: 0px;
+  margin-top: 0%;
 }
 
 .footer-content {
@@ -35,7 +36,7 @@ footer {
 
 .footer-bottom {
   background-color: #222;
-  padding: 10px 0;
+  padding: 0px;
   text-align: center;
 }
 

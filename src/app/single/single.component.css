@@ -1,0 +1,6 @@
+.card{
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(to right, #7ba5c2,#8451c9);
+  margin-bottom: 0px;
+}
